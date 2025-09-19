@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+/* Holder styling */
+.holder {
+  display: flex;               /* enable flexbox */
+  justify-content: space-between; /* space between items, edges touched */
+  flex-wrap: wrap;             /* allow items to move to next line */
+}
+
+/* Item styling */
+.item {
+  flex: 0 0 auto;              /* do not grow, do not shrink, keep natural size */
+  width: 100px;                /* example fixed width */
+  height: 100px;               /* example fixed height */
+  background-color: lightblue; /* just to visualize */
+  margin: 10px 0;              /* vertical spacing between rows */
+}
